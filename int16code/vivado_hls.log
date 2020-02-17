@@ -1,0 +1,189 @@
+INFO: [HLS 200-10] Running 'D:/viviado/Vivado/2017.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Administrator' on host 'sky-20181017rea' (Windows NT_amd64 version 6.2) on Tue Jun 11 20:26:06 +0800 2019
+INFO: [HLS 200-10] In directory 'E:/paper/int16/int162'
+INFO: [HLS 200-10] Opening project 'E:/paper/int16/int162/int162'.
+INFO: [HLS 200-10] Adding design file 'BatchNormalization_layer.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'CNN.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'Convolution_layer.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'MaxPool_layer.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'main.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'E:/paper/int16/int162/int162/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z045ffg900-2'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Analyzing design file 'MaxPool_layer.cpp' ...
+INFO: [HLS 200-10] Analyzing design file 'Convolution_layer.cpp' ...
+INFO: [HLS 200-10] Analyzing design file 'CNN.cpp' ...
+INFO: [HLS 200-10] Analyzing design file 'BatchNormalization_layer.cpp' ...
+INFO: [HLS 200-10] Validating synthesis directives ...
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K4' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'first_order_fixed_16::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K3' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K3' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K4' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'first_order_fixed_16::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K3' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K4' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:04 ; elapsed = 00:00:40 . Memory (MB): peak = 99.828 ; gain = 44.816
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:04 ; elapsed = 00:00:42 . Memory (MB): peak = 99.863 ; gain = 44.852
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:04 ; elapsed = 00:00:43 . Memory (MB): peak = 125.180 ; gain = 70.168
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'Convolution_layer.1' into 'CNN' (CNN.cpp:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'BatchNormalization_layer.1' into 'CNN' (CNN.cpp:17) automatically.
+INFO: [XFORM 203-602] Inlining function 'Convolution_layer' into 'CNN' (CNN.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'BatchNormalization_layer' into 'CNN' (CNN.cpp:22) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:04 ; elapsed = 00:00:43 . Memory (MB): peak = 143.836 ; gain = 88.824
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1.1' (Convolution_layer.cpp:23) in function 'Convolution_layer_Set_WB.1' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-3' (BatchNormalization_layer.cpp:32) in function 'BatchNormalization_layer_Set_BN.1' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-3' (BatchNormalization_layer.cpp:32) in function 'BatchNormalization_layer_Set_BN' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1.1' (Convolution_layer.cpp:23) in function 'Convolution_layer_Set_WB' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Input_Channel' (Convolution_layer.cpp:58) in function 'ForWard_Convolution' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Input_Channel' (Convolution_layer.cpp:58) in function 'ForWard_Convolution.1' automatically.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (Convolution_layer.cpp:23) in function 'Convolution_layer_Set_WB.1' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3' (BatchNormalization_layer.cpp:32) in function 'BatchNormalization_layer_Set_BN.1' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-3' (BatchNormalization_layer.cpp:32) in function 'BatchNormalization_layer_Set_BN' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (Convolution_layer.cpp:23) in function 'Convolution_layer_Set_WB' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Input_Channel' (Convolution_layer.cpp:58) in function 'ForWard_Convolution' completely.
+INFO: [XFORM 203-501] Unrolling loop 'Input_Channel' (Convolution_layer.cpp:58) in function 'ForWard_Convolution.1' completely.
+INFO: [XFORM 203-602] Inlining function 'BatchNormalization_layer_Set_BN' into 'BatchNormalization_layer' (BatchNormalization_layer.cpp:20) automatically.
+INFO: [XFORM 203-602] Inlining function 'Convolution_layer.1' into 'CNN' (CNN.cpp:15) automatically.
+INFO: [XFORM 203-602] Inlining function 'BatchNormalization_layer.1' into 'CNN' (CNN.cpp:17) automatically.
+INFO: [XFORM 203-602] Inlining function 'Convolution_layer' into 'CNN' (CNN.cpp:21) automatically.
+INFO: [XFORM 203-602] Inlining function 'BatchNormalization_layer' into 'CNN' automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (MaxPool_layer.cpp:10:5) to (MaxPool_layer.cpp:9:21) in function 'MaxPool_layer'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:44 . Memory (MB): peak = 184.273 ; gain = 129.262
+WARNING: [XFORM 203-631] Renaming function 'Convolution_layer_Set_WB' to 'Convolution_layer_Se' (Convolution_layer.cpp:22:23)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:05 ; elapsed = 00:00:45 . Memory (MB): peak = 220.809 ; gain = 165.797
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'CNN' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'ForWard_Convolution'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 45.22 seconds; current allocated memory: 176.964 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.317 seconds; current allocated memory: 177.213 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MaxPool_layer'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.122 seconds; current allocated memory: 177.542 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.242 seconds; current allocated memory: 177.796 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'BatchNormalization'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 177.970 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.203 seconds; current allocated memory: 178.106 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Convolution_layer_Se'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.094 seconds; current allocated memory: 178.288 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.181 seconds; current allocated memory: 178.428 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'CNN'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.077 seconds; current allocated memory: 178.600 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.33 seconds; current allocated memory: 178.827 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'ForWard_Convolution'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'CNN_ama_addmuladd_5ns_10ns_6ns_5ns_15_1_1' to 'CNN_ama_addmuladdbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'CNN_mac_muladd_16s_16s_16ns_16_1_1' to 'CNN_mac_muladd_16cud' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'CNN_ama_addmuladdbkb': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'CNN_mac_muladd_16cud': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'ForWard_Convolution'.
+INFO: [HLS 200-111]  Elapsed time: 0.192 seconds; current allocated memory: 179.331 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MaxPool_layer'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'CNN_mul_mul_10ns_6ns_15_1_1' to 'CNN_mul_mul_10ns_dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'CNN_mul_mul_10ns_dEe': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MaxPool_layer'.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 179.950 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'BatchNormalization'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'BatchNormalization'.
+INFO: [HLS 200-111]  Elapsed time: 0.255 seconds; current allocated memory: 180.334 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Convolution_layer_Se'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Convolution_layer_Se'.
+INFO: [HLS 200-111]  Elapsed time: 0.145 seconds; current allocated memory: 180.654 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'CNN'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'CNN/ImgIn' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'CNN/ImgBN' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'CNN/WB_IN' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'CNN/BN_IN' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'CNN/ctrl_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'CNN' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Global array 'ImgConv' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global array 'W_Conv' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global array 'ImgMaxP' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global array 'beta' will not be exposed as RTL port.
+WARNING: [RTGEN 206-101] Global array 'gamma' will not be exposed as RTL port.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'CNN'.
+INFO: [HLS 200-111]  Elapsed time: 0.274 seconds; current allocated memory: 181.299 MB.
+INFO: [RTMG 210-278] Implementing memory 'CNN_ImgConv_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'CNN_W_Conv_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'CNN_ImgMaxP_ram (RAM)' using block RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'CNN_beta_ram (RAM)' using distributed RAMs with power-on initialization.
+INFO: [RTMG 210-278] Implementing memory 'CNN_gamma_ram (RAM)' using distributed RAMs with power-on initialization.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:00:50 . Memory (MB): peak = 237.473 ; gain = 182.461
+INFO: [SYSC 207-301] Generating SystemC RTL for CNN.
+INFO: [VHDL 208-304] Generating VHDL RTL for CNN.
+INFO: [VLOG 209-307] Generating Verilog RTL for CNN.
+INFO: [HLS 200-112] Total elapsed time: 49.865 seconds; peak allocated memory: 181.299 MB.
